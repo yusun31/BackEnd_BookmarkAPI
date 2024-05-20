@@ -1,4 +1,4 @@
-package com.bookmarker.api.domain;
+package com.bookmarker.api.service;
 
 import com.bookmarker.api.domain.Bookmark;
 import com.bookmarker.api.domain.BookmarkRepository;
