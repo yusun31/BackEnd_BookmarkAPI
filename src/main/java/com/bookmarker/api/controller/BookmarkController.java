@@ -31,6 +31,7 @@ public class BookmarkController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
+    // @Valid -> CreateBookmarkRequest 내에서 @NotEmpty 라는 검증을 사용하기 위해 의존성 추가
     public BookmarkDTO createBookmark(@RequestBody @Valid CreateBookmarkRequest request) {
         return bookmarkService.createBookmark(request);
     }
