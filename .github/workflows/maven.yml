@@ -25,7 +25,7 @@ jobs:
       - name: Build & push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image: yssong31/springbootnextjs
+          image: yousun2286/springbootnextjs
           tags: 0.1
           registry: docker.io
           dockerfile: Dockerfile
